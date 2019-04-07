@@ -54,10 +54,9 @@ public class wcTest {
 		handler.FileHandle(path, isStop, StopList);
 		String buffer = "";
 		String[] args = { "-w" };
-		
+
 		assertEquals("junittest.txt, 单词数: 14" + "\r\n", wc.Output(args, handler, buffer));
 
-		
 	}
 
 }

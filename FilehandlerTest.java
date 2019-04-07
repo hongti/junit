@@ -39,7 +39,7 @@ public class FilehandlerTest {
 		assertEquals(7, f.countline);
 
 	}
-	
+
 	@Test
 	public void testCountCodeLine() throws IOException {
 		assertEquals(5, f.countCodeLine);
